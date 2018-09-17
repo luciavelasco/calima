@@ -1,0 +1,30 @@
+.method-and-contact {
+  margin-top: 50px;
+}
+
+.method-and-contact div {
+  display: inline-block;
+  width: 50%;
+  padding: 10px;
+  border-right: black 2px solid;
+}
+
+.contact {
+
+}
+
+.contact-title {
+
+}
+
+.method {
+
+}
+
+.method-title {
+
+}
+
+.cta-contact {
+
+}

@@ -1,0 +1,42 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.cta-button {
+  width: 35vw;
+  min-height: 10vh;
+  background-color: #C3423F;
+  border-radius: 8px;
+  display: inline-block;
+  text-decoration: none;
+  padding: 2vh;
+  color: white;
+  font-size: 2rem;
+  text-shadow: 1px 2px #000;
+}
+
+@media (max-width: 420px) {
+
+  .cta-button {
+    width: 85vw;
+  }
+}
