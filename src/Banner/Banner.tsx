@@ -1,6 +1,8 @@
 import * as React from 'react'
 import './Banner.css'
 
+import { CtaSolid } from '../CtaButtons/CtaSolid'
+
 export class Banner extends React.Component {
   public render() {
     return (
@@ -12,7 +14,7 @@ export class Banner extends React.Component {
           <p>Lucia Velasco</p>
           <p>Process Optimisation and Management Consultancy</p>
         </div>
-        <a className="cta-button" href="mailto:luciakvelasco@gmail.com">Get in touch for...</a>
+        <CtaSolid className={[ 'cta-top' ]} text="Get in touch for..."/>
       </div>
     )
   }

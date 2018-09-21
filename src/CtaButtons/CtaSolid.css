@@ -1,0 +1,31 @@
+.cta-solid:hover {
+  background-color: #C62D2A;
+  text-shadow: 2px 2px rgba(0, 0, 0, 0.25);
+}
+.cta-solid:active {
+  background-color: #C62D2A;
+  text-shadow: -1px -1px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.25);
+}
+
+.cta-solid {
+  min-height: 10vh;
+  background-color: #C11815;
+  border-radius: 8px;
+  display: inline-block;
+  text-decoration: none;
+  padding: 2vh;
+  color: white;
+  font-size: 2rem;
+  text-shadow: 3px 3px rgba(0, 0, 0, 0.25);
+  -webkit-box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 0 15px 1px rgba(0, 0, 0, 0.25);
+}
+
+@media (max-width: 590px) {
+
+  .cta-solid {
+    width: 85vw;
+  }
+}

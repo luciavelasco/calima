@@ -1,0 +1,45 @@
+.service {
+  height: 50vw;
+  display: flex;
+  flex-basis: 50%;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.service-description, .service-image {
+  width: 50%;
+}
+
+.service-card {
+  background-color: #0D61A5;
+  padding: 10px;
+  color: white;
+}
+
+@media (max-width: 630px) {
+  .service-image, .service-description {
+    margin: 10px auto;
+  }
+
+  .service {
+    height: auto;
+    margin: 10px;
+    box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.5);
+    padding-top: 10px;
+  }
+
+  .service-card {
+    background-color: #fff;
+    color: #000
+  }
+}
+
+@media (max-width: 450px) {
+  .service-image, .service-description {
+    width: 100%;
+  }
+
+  .service {
+    display: block;
+  }
+
+}

@@ -1,6 +1,8 @@
 import * as React from 'react'
 import './MethodAndContact.css'
 
+import { CtaFlat } from '../CtaButtons/CtaFlat'
+
 export class MethodAndContact extends React.Component {
   public render() {
     return (
@@ -14,6 +16,7 @@ export class MethodAndContact extends React.Component {
           <h5 className="method-title">Calima</h5>
           <p>Process Optimisation and Management Consultancy</p>
         </div>
+        <CtaFlat text="Get in touch!"/>
       </div>
     )
   }
