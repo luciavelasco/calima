@@ -1,30 +1,70 @@
 .method-and-contact {
   margin-top: 50px;
-}
-
-.method-and-contact div {
-  display: inline-block;
-  width: 50%;
-  padding: 10px;
-  border-right: black 2px solid;
-}
-
-.contact {
-
-}
-
-.contact-title {
-
+  height: 44vh;
+  min-height: 315px;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-preferred-size: 50%;
+  flex-basis: 50%;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -ms-flex-align: center;
+  align-items: stretch;
 }
 
 .method {
-
+  border-left: black 2px solid;
+  text-align: left;
+  height: 100%;
 }
 
+.method-and-contact div {
+  min-width: 280px;
+  width: 50%;
+  padding: 10px;
+  margin: auto;
+}
+
+.contact {
+  text-align: right;
+  height: 100%;
+}
+
+.contact-title {
+  color: #C3423F;
+}
 .method-title {
-
+  color: #0D61A5;
+}
+.contact-title, .method-title {
+  font-size: 5vw;
+  -webkit-margin-before: 0em;
+  -webkit-margin-after: 1.67em;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  padding: 7px;
+  /*color: white;*/
+  /*text-shadow: 1px 2px #000;*/
+  /*-webkit-box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.5);*/
+  /*box-shadow: 0 0 10px 1px rgba(0, 0, 0, 0.5);*/
 }
 
-.cta-contact {
+@media (max-width: 590px) {
+  .method-and-contact {
+    height: auto;
+  }
+
+  .method-and-contact div {
+    width: 80%;
+  }
+
+  .method {
+    border-left: none;
+    border-top: black 2px solid;
+  }
+
+  .method, .contact {
+    text-align: center;
+  }
 
 }

@@ -4,16 +4,22 @@
 }
 
 .App-header {
-  background-color: #222;
   padding: 20px;
-  color: white;
+  color: #C3423F;
   height: 100vh;
-  max-height: 500px;
+  max-height: 630px;
   border-bottom: 5px solid #C3423F;
+  background: #DEFCFC url('../images/blue-sand.jpeg') no-repeat bottom;
+  background-size: cover;
+}
+
+.header-content {
+  max-width: 590px;
+  margin: auto;
 }
 
 .logo-block {
-  height: 30vh;
+  height: 20vh;
   font-size: 2rem;
 }
 
@@ -22,9 +28,46 @@
 }
 
 .intro-title {
+  max-width: 440px;
+  margin: 4vh auto;
+  padding: 1vh;
+  text-shadow: 1px 1px rgba(50,50,50, 0.25);
+
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.my-name {
+  font-weight: bolder;
 }
 
 .cta-top {
+  position: relative;
+  top: 20vh;
 }
 
+@media (max-height: 630px) {
+
+  .logo-title {
+    font-size: 80px;
+    font-size: 22vh;
+  }
+
+  .cta-top {
+    top: 0vh;
+  }
+}
+
+@media (max-width: 590px) {
+  .logo-title {
+    font-size: 80px;
+    font-size: 28vw;
+  }
+
+  .header-content {
+    padding: 1vh 0;
+    /*background-color: rgba(100, 189, 229, 0.5);*/
+    /*box-shadow: 0 0 17px 5px rgba(100, 189, 229, 0.5);*/
+  }
+}
 
