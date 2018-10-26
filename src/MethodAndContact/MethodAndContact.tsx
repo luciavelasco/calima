@@ -13,12 +13,11 @@ export class MethodAndContact extends React.Component {
       <div>
         <div className="method-and-contact">
           <div className="contact">
-            {/*<h4 className="contact-title">Lucia Velasco</h4>*/}
             <img className="headshot" src={headshot} alt="Lucia Velasco"/>
             <a href="mailto:luciakvelasco@gmail.com">
-              <img className="contact-details" src={contact} alt="Call me: 07887393021. Email me: luciakvelasco@gmail.com."/>
+              <img className="contact-details" src={contact}
+                   alt="Call me: 07887393021. Email me: luciakvelasco@gmail.com."/>
             </a>
-            {/*<p>Connect: <a href="mailto:luciakvelasco@gmail.com">LinkedIn/Skype/Facebook(?)/</a></p>*/}
           </div>
           <div className="method">
             <p>

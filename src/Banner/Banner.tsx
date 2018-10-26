@@ -12,8 +12,6 @@ export class Banner extends React.Component {
             <h1 className="logo-title">Calima</h1>
           </div>
           <div className="intro-title">
-            {/*<p className="my-name">LUCIA VELASCO</p>*/}
-            {/*<p>PROCESS OPTIMISATION AND STRATEGY CONSULTANCY</p>*/}
             <p>Process Strategy Consultancy</p>
           </div>
         </div>
