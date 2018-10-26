@@ -29,12 +29,12 @@
 
 .intro-title {
   max-width: 440px;
-  margin: 4vh auto;
+  margin: 6vh auto;
   padding: 1vh;
   text-shadow: 1px 1px rgba(50,50,50, 0.25);
 
-  font-size: 17px;
-  font-weight: bold;
+  font-size: 20px;
+  font-weight: lighter;
 }
 
 .my-name {

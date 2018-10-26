@@ -13,8 +13,8 @@ export class Banner extends React.Component {
           </div>
           <div className="intro-title">
             {/*<p className="my-name">LUCIA VELASCO</p>*/}
-            <p>PROCESS OPTIMISATION AND MANAGEMENT CONSULTANCY</p>
-            {/*<p>Process Optimisation and Management Consultancy</p>*/}
+            {/*<p>PROCESS OPTIMISATION AND STRATEGY CONSULTANCY</p>*/}
+            <p>Process Strategy Consultancy</p>
           </div>
         </div>
         <CtaSolid className={[ 'cta-top' ]} text="Get in touch for..."/>

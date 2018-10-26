@@ -2,36 +2,60 @@
 
 .services {
   padding-top: 17vh;
+  /*height: 50vw;*/
+  display: flex;
+  flex-basis: 50%;
+  flex-wrap: wrap;
+  align-items: stretch;
 }
+.services img, .services .service {
+  width: 48%;
+  /* height: auto; */
+  margin: 1%;
+}
+/*.service.third {*/
+  /*height: 40vw*/
+/*}*/
 
-.service.third {
-  height: 40vw
-}
+/*.first img {*/
+  /*max-width: 60%;*/
+/*}*/
 
-.first img {
-  max-width: 60%;
-}
+/*.first .service-card, .third .service-card {*/
+  /*margin-left: 30px;*/
+/*}*/
 
-.first .service-card, .third .service-card {
-  margin-left: 30px;
-}
+/*.second .service-card, .fourth .service-card {*/
+  /*margin-right: 30px;*/
+/*}*/
 
-.second .service-card, .fourth .service-card {
-  margin-right: 30px;
-}
+/*.second, .fourth {*/
+  /*flex-direction: row-reverse;*/
+/*}*/
 
-.second, .fourth {
-  flex-direction: row-reverse;
-}
+/*.image-band {*/
+  /*height: 20vw;*/
+  /*display: flex;*/
+  /*flex-basis: 50%;*/
+  /*flex-wrap: wrap;*/
+  /*align-items: center;*/
+/*}*/
+/*.image-band img {*/
+
+/*}*/
 
 @media (max-width: 630px) {
-  .service.third {
-    height: auto;
+  .services img, .services .service {
+    width: 90%;
+    margin: 10px auto;
   }
-  .first .service-card,
-  .second .service-card,
-  .third .service-card,
-  .fourth .service-card {
-    margin: auto;
-  }
+  /*.service.third {*/
+    /*height: auto;*/
+  /*}*/
+  /*.first .service-card,*/
+  /*.second .service-card,*/
+  /*.third .service-card,*/
+  /*.fourth .service-card {*/
+    /*margin: auto;*/
+  /*}*/
 }
